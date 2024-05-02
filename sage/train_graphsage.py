@@ -403,7 +403,7 @@ if __name__ == '__main__':
 
         res_dir = '%s/'%(ego_user)
 
-        feat_dir = '/Wang-ds/xwang193/deepwalk-master//data/' + str(ego_user) + '-adj-feat.pkl'
+        feat_dir = '/data/' + str(ego_user) + '-adj-feat.pkl'
         # feat_dir = '/Users/xiulingwang/Downloads/facebook-data/data/' + str(ego_user) + '-adj-feat.pkl'
         # feat_dir = 'E:/python/banlance/code/google+-raw-data-3/gplus-processed-test1/' + str(ego_user) + '-adj-feat.pkl'
         # feat_dir = 'E:/python/banlance/code/dblp-data/data/' + str(ego_user) + '-adj-feat.pkl'
@@ -424,7 +424,7 @@ if __name__ == '__main__':
         labels = []
 
         if ego_user == 'Facebook':
-            f = open('/Wang-ds/xwang193/deepwalk-master//data/Facebook_feature_map.txt', 'r')
+            f = open('/data/Facebook_feature_map.txt', 'r')
             invert_index = eval(f.readline())
             f.close()
 
@@ -461,7 +461,7 @@ if __name__ == '__main__':
 
 
         elif ego_user == 'cora' or ego_user == 'citeseer' or ego_user == 'lastfm':
-            with open('/Wang-ds/xwang193/deepwalk-master//data/' + str(ego_user) + '-target.txt') as tfile:
+            with open('/data/' + str(ego_user) + '-target.txt') as tfile:
                 Lines = tfile.readlines()
                 target = []
                 for line in Lines:
@@ -494,7 +494,7 @@ if __name__ == '__main__':
 
         dt=ego_user
 
-        res_dir0 = '/Wang-ds/xwang193/deepwalk-master/%s/' % (dt)
+        res_dir0 = '/%s/' % (dt)
         f2 = open('%s/%s-train_test_split' % (res_dir0, dt), 'rb')
         train_test_split = pkl.load(f2, encoding='latin1')
 
