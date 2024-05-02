@@ -173,7 +173,7 @@ for me in mes:
 
                 res_dir = '%s/'%(ego_user)
 
-                feat_dir = '/Wang-ds/xwang193/deepwalk-master/data/' + str(ego_user) + '-adj-feat.pkl'
+                feat_dir = '/data/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = '/Users/xiulingwang/Downloads/facebook-data/data/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = 'E:/python/banlance/code/google+-raw-data-3/gplus-processed-test1/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = 'E:/python/banlance/code/dblp-data/data/' + str(ego_user) + '-adj-feat.pkl'
@@ -494,7 +494,7 @@ for me in mes:
 
                 res_dir = '%s/'%(ego_user)
 
-                feat_dir = '/Wang-ds/xwang193/deepwalk-master/data/' + str(ego_user) + '-adj-feat.pkl'
+                feat_dir = '/data/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = '/Users/xiulingwang/Downloads/facebook-data/data/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = 'E:/python/banlance/code/google+-raw-data-3/gplus-processed-test1/' + str(ego_user) + '-adj-feat.pkl'
                 # feat_dir = 'E:/python/banlance/code/dblp-data/data/' + str(ego_user) + '-adj-feat.pkl'

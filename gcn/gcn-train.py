@@ -119,7 +119,7 @@ for ego_user in G_EGO_USERS:
     labels = []
 
     if ego_user == 'Facebook':
-        f = open('/Wang-ds/xwang193/deepwalk-master//data/Facebook_feature_map.txt', 'r')
+        f = open('/data/Facebook_feature_map.txt', 'r')
         invert_index = eval(f.readline())
         f.close()
 
@@ -156,7 +156,7 @@ for ego_user in G_EGO_USERS:
 
 
     elif ego_user == 'cora' or ego_user == 'citeseer' or ego_user == 'lastfm':
-        with open('/Wang-ds/xwang193/deepwalk-master//data/' + str(ego_user) + '-target.txt') as tfile:
+        with open('/data/' + str(ego_user) + '-target.txt') as tfile:
             Lines = tfile.readlines()
             target = []
             for line in Lines:
@@ -187,7 +187,7 @@ for ego_user in G_EGO_USERS:
 
     elif ego_user == 'Gplus':
         features = ft
-        f = open('/Wang-ds/xwang193/deepwalk-master//data/Gplus_feature_map.txt', 'r')
+        f = open('/data/Gplus_feature_map.txt', 'r')
         invert_index = eval(f.readline())
         f.close()
 
