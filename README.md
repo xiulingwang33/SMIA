@@ -14,7 +14,7 @@ The original implemenations of GNN models we used in the paper can be found here
 
 To run the code of GNNs, please use the environments and required packages from the links above:
 
- - for GCN, use PyTorch 0.4 or 0.5, Python 2.7 or 3.6
+ - for GCN, use PyTorch 0.4 or 0.5, Python 2.7 or above
 
  - for GraphSAGE and GAT, import the package of DGL
 
